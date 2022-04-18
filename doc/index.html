@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guia HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guia de HTML</h1>
+    </header>
+    <section>
+      <article>
+        <h2>Que es HTML</h2>
+        <p>
+          HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’),
+          hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar
+          que sirve de referencia del software que conecta con la elaboración de páginas web en sus
+          diferentes versiones, define una estructura básica y un código (denominado código HTML)
+          para la definición de contenido de una página web, como texto, imágenes, videos, juegos,
+          entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW,
+          organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web,
+          sobre todo en lo referente a su escritura e interpretación. HTML se considera el lenguaje
+          web más importante siendo su invención crucial en la aparición, desarrollo y expansión de
+          la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas
+          web y es el que todos los navegadores actuales han adoptado.1​
+        </p>
+
+        <p>
+          El lenguaje HTML basa su filosofía de desarrollo en la diferenciación. Para añadir un
+          elemento externo a la página (imagen, vídeo, script, entre otros.), este no se incrusta
+          directamente en el código de la página, sino que se hace una referencia a la ubicación de
+          dicho elemento mediante texto. De este modo, la página web contiene solamente texto
+          mientras que recae en el navegador web (interpretador del código) la tarea de unir todos
+          los elementos y visualizar la página final. Al ser un estándar, HTML busca ser un lenguaje
+          que permita que cualquier página web escrita en una determinada versión, pueda ser
+          interpretada de la misma forma (estándar) por cualquier navegador web actualizado.
+        </p>
+
+        <p>
+          HTML es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento
+          mediante etiquetas. Este lenguaje nos ofrece una gran adaptabilidad, una estructuración
+          lógica y es fácil de interpre­tar tanto por humanos como por máquinas.
+        </p>
+
+        <p>
+          Sin embargo, a lo largo de sus diferentes versiones, se han incorporado y suprimido
+          diversas características, con el fin de hacerlo más eficiente y facilitar el desarrollo de
+          páginas web compatibles con distintos navegadores y plataformas (PC de escritorio,
+          portátiles, teléfonos inteligentes, tabletas, etc.) No obstante, para interpretar
+          correctamente una nueva versión de HTML, los desarrolladores de navegadores web deben
+          incorporar estos cambios y el usuario debe ser capaz de usar la nueva versión del
+          navegador con los cambios incorporados. Normalmente los cambios son aplicados mediante
+          parches de actualización automática (Firefox, Chrome) u ofreciendo una nueva versión del
+          navegador con todos los cambios incorporados, en un sitio web de descarga oficial
+          (Internet Explorer). Por lo que un navegador desactualizado no será capaz de interpretar
+          correctamente una página web escrita en una versión de HTML superior a la que pueda
+          interpretar, lo que obliga muchas veces a los desarrolladores a aplicar técnicas y cambios
+          que permitan corregir problemas de visualización e incluso de interpretación de código
+          HTML. Así mismo, las páginas escritas en una versión anterior de HTML deberían ser
+          actualizadas o reescritas, lo que no siempre se cumple. Es por ello que ciertos
+          navegadores todavía mantienen la capacidad de interpretar páginas web de versiones HTML
+          anteriores. Por estas razones, todavía existen diferencias entre distintos navegadores y
+          versiones al interpretar una misma página web.
+        </p>
+      </article>
+      <article>
+        <h2>Marcador HTML o Etiquetas</h2>
+        <p>
+          El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares (<,>,/). El
+          HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y
+          puede incluir o hacer referencia a un tipo de programa llamado script, el cual puede
+          afectar el comportamiento de navegadores web y otros procesadores de HTML.8​ HTML también
+          sirve para referirse al contenido del tipo de MIME text/html o todavía más ampliamente
+          como un término genérico para el HTML, ya sea en forma descendida del XML (como XHTML 1.0
+          y posteriores) o en forma descendida directamente de SGML (como HTML 4.01 y anteriores).
+          HTML consta de varios componentes vitales, entre ellos los elementos y sus atributos,
+          tipos de data y la declaración de tipo de documento.
+        </p>
+        <p>Las etiquetas estan conformados por dos elementos:</p>
+        <ul>
+          <li>El contenido</li>
+          <li>El Atributo</li>
+        </ul>
+        <h3>El contenido</h3>
+        Es todo aquello que esta dentro de una etiqueta, ya se un parrafo, una imagen, un titulo, un
+        boton, etc.
+        <p>
+          <em> Ejemplo de contenido:</em>
+          <code> &lt;p&gt;Esto es un contenido, dentro de la etiquetas p&lt;/p&gt;</code>
+        </p>
+
+        <p>Existe alguinas etiquetas que no tiene contenido, como son las siguientes:</p>
+        <ul>
+          <li>&lt;br /&gt;</li>
+          <li>&lt;img /&gt;</li>
+          <li>&lt;hr /&gt;</li>
+        </ul>
+        <p>Entre otras</p>
+        <h3>El Atributo</h3>
+        <p>
+          En su mayoría los atributos de un elemento son pares nombre-valor, separados por un signo
+          de igual «=» y escritos en la etiqueta de comienzo de un elemento, después del nombre del
+          elemento. El valor puede estar rodeado por comillas dobles o simples, aunque ciertos tipos
+          de valores pueden estar sin comillas en HTML (pero no en XHTML).9​10​ De todas maneras,
+          dejar los valores sin comillas es considerado poco seguro.11​ En contraste con los pares
+          nombre-elemento, hay algunos atributos que afectan al elemento simplemente por su
+          presencia
+        </p>
+        <p>
+          <em>Ejemplo:</em>
+          <code>&lt;img src="/imagen/fondo01.jpg" alt="Fondo de pantalla" /&gt;</code>
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Las Etiquetas <em>HTML</em></h2>
+      <article>
+        <h3>&lt;DOCTYPE &gt;</h3>
+
+        <p>
+          El motor de visualización de HTML en los navegadores web modernos ejecutan el DOCTYPE, en
+          donde el DOCTYPE en un documento es servido como text/html, esto determina el modo de
+          visualización, «quirks mode» o «standards mode».
+        </p>
+        <p>
+          En caso de no tener la etiqueta DOCTYPE, los navegadores web interpretaran esto como
+          codigo antiguo. De los año 90 y esto podria dar problemas.
+        </p>
+      </article>
+      <article>
+        <h3>&lt;html &gt;</h3>
+        <p>
+          Un elemento de HTML es un tipo de componente de documento de HTML (Hypertext Markup
+          Lengua), uno de los diversos tipos de nodos de HTML ( hay también nodos de texto, nodos de
+          comentario y otros). El documento de HTML está compuesto de un árbol de nodos HTML
+          sencillo, como nodos de texto, y elementos de HTML, los cuales añaden semántica y formato
+          a partes del documento (p. ej., texto en negrita, lo organiza en párrafos, listas y tablas
+          o hiperenlaces e imágenes embebidas). Cada elemento puede tener atributos de HTML
+          especificados. Los elementos también pueden tener contenido, incluyendo otros elementos y
+          texto.
+        </p>
+      </article>
+      <article>
+        <h3>&lt;head &gt;</h3>
+        <p>
+          Esta etiqueta define la cabecera del documento HTML, suele contener información sobre el
+          documento que no se muestra directamente al usuario como, por ejemplo, el título de la
+          ventana del navegador.
+        </p>
+        <code>
+          &lt;title&gt;: define el título de la página. Por lo general, el título aparece en la
+          barra de título encima de la ventana. Esta es sumamente importante ya que le mostrara a
+          los motores de busqueda con google, yahoo, bing, etc. El titulo o palabra que el usuario
+          esta buscando
+        </code>
+      </article>
+
+      <article>
+        <h3>&lt;body &gt;</h3>
+        <p>
+          Define el contenido principal o cuerpo del documento. Esta es la parte del documento html
+          que se muestra en el navegador dentro de esta etiqueta pueden definirse propiedades
+          comunes a toda la página, como color de fondo y márgenes. Dentro del cuerpo &lt;body&gt;
+          es posible encontrar numerosas etiquetas. A continuación se indican algunas a modo de
+          ejemplo
+        </p>
+        <p>
+          Algo muy importante es que el contenido debe de estar <em>identado</em>, esto significa
+          que debe guardar un espacio a la izquierda con respecto a la etiqueta anterior.
+        </p>
+      </article>
+
+      <article>
+        <h3>&lt;h1&gt; &lt;h2&gt; ... &lt;h6&gt;</h3>
+        <p>
+          Los elementos de encabezado implementan seis niveles de encabezado del documento, &lt;h1
+          &gt; es el más importante, y &lt;h6&gt;, el menos importante. Un elemento de encabezado
+          describe brevemente el tema de la sección que presenta. La información de encabezado puede
+          ser usada por los agentes usuarios, por ejemplo, para construir una tabla de contenidos
+          para un documento automáticamente.
+        </p>
+        <p>
+          Los motores de busqueda utilizan estas etiquetas para indexar el contenido por relevancia
+          o importancia dentro de los mismos motores de busqueda. Por tal razon es recomendable no
+          utilizar las etiquetas &lt;h1&gt; &lt;h2&gt; ... &lt;h6&gt; para indicar un titulo mas
+          grande, sino para indicar la importancia dentro de nuestra pagina web.
+        </p>
+      </article>
+
+      <article>
+        <h3>&lt;p&gt; &lt;/p&gt;</h3>
+        <p>
+          El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos. Este
+          elemento crea una caja tipo bloque.
+        </p>
+        <p>Es recomendable utilizar este elemento para separar fraces o oraciones completas.</p>
+      </article>
+
+      <article>
+        <h3>&lt;hr/&gt; & &lt;br/&gt;</h3>
+        <p>La etiquetas &lt;hr /&gt; & &lt;br/ &gt; nos ayudan a separa elementos.</p>
+        <p>
+          <em>&lt;hr /&gt;</em>: No agrega una linea de separación y por lo tanto nos divide la
+          pagina.
+        </p>
+
+        <p>
+          <em>&lt;br /&gt;</em>: Nos agrega un salto de linea o salto de carro como lo se llamaba
+          antiguamente en maquinas de escribir.<br />
+          Esta etiquita la podemos usar dentro de un parrafo.
+        </p>
+
+        <p>Es recomendable utilizar este elemento para separar fraces o oraciones completas.</p>
+      </article>
+
+      <article>
+        <h3>&lt;!-- --&gt;</h3>
+        <p>
+          La etiqueta de comentario, no se muestra dentro del contenido html, ya como significado lo
+          indica es solo un comentario que estamos escribiendo nostros, ya se ha para dejar a otro
+          desarrolladores para que tengan en cuenta cuándo edite nuestra página web o un
+          recordatorio que hacemos de una seccion de nuestra pagina.
+        </p>
+
+        <!--         
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis deleniti dolore
+          molestiae eos quibusdam corrupti quo velit optio ipsam quasi, veniam voluptas aut quisquam
+          quis nemo enim error. Provident, consectetur!
+        </p> -->
+      </article>
+
+      <article>
+        <h3>&lt;span&gt; &lt;span/&gt;</h3>
+        <p>
+          Es un contenedor en línea. Sirve para aplicar estilo o referencia de texto o que se
+          encuentra dentro de otras etiquetas. Esta regularmente la encontraremos o utilizaremos
+          dentro de etiquetas &lt;p&gt;, &lt;h1&gt;, &lt;h2&gt; ...
+          <span style="color: red">Texto de color rojo</span>
+        </p>
+      </article>
+
+      <article>
+        <h3>&lt;a&gt; &lt;a/&gt;</h3>
+        <p>
+          La etiqueta de hipervinculo o elemento HTML llamado "Anchor", crea un enlace a otras
+          páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de
+          correo, o cualquier otra URL.
+        </p>
+        <p>
+          Mediante esta podemos navegar a otras paginas web o incluso dentro de nuestra misma web.
+        </p>
+      </article>
+
+      <article>
+        <h3>&lt;img /&gt;</h3>
+        <p>
+          El elemento de imagen HTML &lt;img /&gt; representa una imagen en el documento. La se ha
+          que se encuentre en nuestra web o entra ubicación.
+        </p>
+        <code>
+          <table style="border: 2px solid gray">
+            <thead>
+              <th>Atributo</th>
+              <th>Descripcion</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>src</td>
+                <td>Indicamos la ruta donde se encuentra la imagen a buscar</td>
+              </tr>
+              <tr>
+                <td>width</td>
+                <td>
+                  Indicamos el ancho de la imagen establecidas en una unidad de medida, "px", "em",
+                  "rem"
+                </td>
+              </tr>
+              <tr>
+                <td>height</td>
+                <td>
+                  Indicamos la altura de imagen establecidas en una unidad de medida, "px", "em",
+                  "rem"
+                </td>
+              </tr>
+              <tr>
+                <td>alt</td>
+                <td>
+                  En caso que no muestre la imagen, se mostrara el comentario que se escriba en este
+                  texto. Por lo tanto es una buena practica siempre especificarlo.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </code>
+      </article>
+
+      <article>
+        <h3>&lt;ul&gt; &lt;ol&gt; &lt;li&gt;</h3>
+        <p>
+          Listas, como lo indica su nombre la etiquetas de listas nos ayudan a generar listar ya
+          sean ordenadas o sin orden
+        </p>
+
+        <code>
+          <table style="border: 2px solid gray">
+            <thead>
+              <th>Atributo</th>
+              <th>Descripcion</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>type</td>
+                <td>
+                  En &lt;ul&gt; (disc|square|circle) y &lt;ol&gt; (1|a|A|i|I) estilo de numeración
+                </td>
+              </tr>
+              <tr>
+                <td>value</td>
+                <td>En &lt;li&gt;: 'un número', que reinicia la enumeracion</td>
+              </tr>
+            </tbody>
+          </table>
+        </code>
+
+        <p>
+          <em>Etiqueta &lt;ul&gt;</em>: Listas sin orden, muestra elementos sin nungun orden
+          espefico. <br />Con <em>&lt;li&gt;</em>; agregamos el elemento o texto a especificar en la
+          lista.
+        </p>
+        <code>
+          <ul>
+            <li>Luis</li>
+            <li>Carlos</li>
+            <li>Mariana</li>
+            <li>Roberto</li>
+          </ul>
+        </code>
+
+        <p>
+          <em>Etiqueta &lt;ol&gt;</em>: Listas ordenada, muestra los elementos y al lado izquiero le
+          coloca una un numero o letra.
+        </p>
+        <code>
+          <ol type="i">
+            <li value="2">Luis</li>
+            <li>Carlos</li>
+            <li>Mariana</li>
+            <li>Roberto</li>
+          </ol>
+        </code>
+      </article>
+    </section>
+
+    <hr />
+    <section>
+      <article>
+        <h2>Tablas o &lt;table&gt;</h2>
+
+        <p>
+          Una tabla HTML (&lt;table&gt;) es un conjunto de celdas (&lt;td&gt; o &lt;th&gt;)
+          organizadas en filas (&lt;tr&gt;) que a su vez se organizan en grupos de filas
+          (&lt;thead&gt;, &lt;tbody&gt; o &lt;tfoot&gt;). Además, la tabla puede tener una leyenda
+          (&lt;caption&gt;) y hacer referencia a las columnas (&lt;col&gt; y &lt;colspan&gt;).
+        </p>
+
+        <pre>
+    <code class="language-html">&lt;table border="1"&gt;
+        &lt;caption&gt;Ejemplo de tabla&lt;/caption&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;th&gt;A&lt;/th&gt;
+            &lt;th&gt;B&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;th&gt;1&lt;/th&gt;
+            &lt;td&gt;A1&lt;/td&gt;
+            &lt;td&gt;B1&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;th&gt;2&lt;/th&gt;
+            &lt;td&gt;A2&lt;/td&gt;
+            &lt;td&gt;B2&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    </code>
+        </pre>
+
+        <code>
+          <table style="border: 2px solid green">
+            <thead>
+              <th>Sub-Etiquetas</th>
+              <th>Descripción</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt;thead&gt;</td>
+                <td>
+                  Su función es agrupar el contenido del titulo de la tabla, con sus respectivas
+                  celdas.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;tbody&gt;</td>
+                <td>
+                  Agrupar el cuerpo con contenido de la tabla con sus diferentes filas y colunas
+                  (celdas).
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;tfoot&gt;</td>
+                <td>
+                  Nos ayuda a crear la parte inferior de la tabla, hay podemos colocar resumen,
+                  totales, etc.
+                </td>
+              </tr>
+
+              <tr>
+                <td>&lt;th&gt;</td>
+                <td>
+                  Con esta etiqueta hacemos referencia a titulos de celda dentro tabla. Ej.
+                  <em>Nombre</em>, <em>Descripción</em>
+                </td>
+              </tr>
+
+              <tr>
+                <td>&lt;td&gt;</td>
+                <td>
+                  Con esta etiqueta colocamos el contenido o valor que deseamos mostrar en la tabla.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </code>
+      </article>
+    </section>
+
+    <hr />
+    <section>
+      <article>
+        <h2>Formulario o &lt;form&gt;</h2>
+        <p>
+          Los formularios web son uno de los principales puntos de interacción entre un usuario y un
+          sitio web o aplicación. Los formularios permiten a los usuarios la introducción de datos,
+          que generalmente se envían a un servidor web para su procesamiento y almacenamiento, o se
+          usan en el lado del cliente para provocar de alguna manera una actualización inmediata de
+          la interfaz.
+        </p>
+        <p>
+          El HTML de un formulario web está compuesto por uno o más controles de formulario (a veces
+          llamados widgets), además de algunos elementos adicionales que ayudan a estructurar el
+          formulario general; a menudo se los conoce como formularios HTML. Los controles pueden ser
+          campos de texto de una o varias líneas, cajas desplegables, botones, casillas de
+          verificación o botones de opción, y se crean principalmente con el elemento
+          &lt;input/&gt;, aunque hay algunos otros elementos que también hay que conocer.
+        </p>
+
+        <p>
+          Los elemento de un formulario inician con una etiqueta &lt;form&gt;. Luego se incluyen las
+          diferentes etiquetas, como son label, input, textarea, option, select, button, fieldset
+        </p>
+
+        <form action="" method=""></form>
+
+        <code>
+          <table style="border: 2px solid green">
+            <thead>
+              <th>Etiqueta</th>
+              <th>Descripción</th>
+              <th>Atributos</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt;form&gt;</td>
+                <td>Indica al navegador web que el contenido que es un formululario.</td>
+                <td>
+                  action: indica la ruta o destino donde seran enviado los datos del formulario,
+                  method: Indica la forma como se enviaran los datos, ya se ha por el url o
+                  direccion; o en el header del post (envio)
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;label&gt;</td>
+                <td>
+                  Representa un texto que indica la descripción o nombre del dato que se desea
+                  ingresar. Puede estar conectado a la etiqueta de ingreso de información.
+                </td>
+
+                <td>
+                  for: Con este atributo conectamos ya se ha a un &lt;input&gt; o &lt;option&gt;
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;input&gt;</td>
+                <td>
+                  Es una de las etiquetas más completas del formulario. Esta pude ser un cuadro
+                  texto, un selector, un cuandro para marcar, se puede incluir fechas, horas,
+                  numero, telefonos, colores
+                </td>
+
+                <td>
+                  type ='text | checkbox | color | date | email | file | moth | number | password |
+                  radio | range | reset search | summit | tel | time | url | week'
+                </td>
+              </tr>
+
+              <tr>
+                <td>&lt;select&gt;</td>
+                <td>
+                  Nos permite mostrar una serie de opciones para que el usuario elija una o mas de
+                  pendiendo de lo que se desee. Esta etiqueta se usa en conjunto con la etiqueta
+                  &lt;option&gt;
+                </td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>&lt;option&gt;</td>
+                <td>Nos muestra la opcion y el valor de la misma que se elige</td>
+                <td>value="valor1"</td>
+              </tr>
+
+              <tr>
+                <td>&lt;button&gt;</td>
+                <td>
+                  Muestra un boton que le podemos asignar una opccion, ya se ha para limpiar los
+                  datos del formulario o enviar los datos hacia un url o donde se quieren recibir o
+                  simplemente encadenarlos a una opcion en javascript.
+                </td>
+                <td>type="submmit | button | reset"</td>
+              </tr>
+
+              <tr>
+                <td>&lt;textarea&gt;</td>
+                <td>
+                  Esta etiqueta es muy parecida a la etiqueta &lt;input&gt; nos permite ingresar
+                  texto a multiples lineas y columnas haciendo la zona mas grande. Se utiliza
+                  regularmente ingresar un mensaje de texto o comentario.
+                </td>
+                <td>
+                  rows="5" nos indica el numero de filas o lineas | cols="33" indica el numero de
+                  columnas o caracteres a mostrar
+                </td>
+              </tr>
+
+              <tr>
+                <td>&lt;optgroup&gt;</td>
+                <td>
+                  No permite mostrar elementos agrupados, se utiliza con la etiqueta &lt;select&gt;
+                </td>
+                <td>label="NombreGrupos" nos indica el nombre del grupo</td>
+              </tr>
+
+              <tr>
+                <td>&lt;fieldset&gt;</td>
+                <td>
+                  Permite agrupar elementos del formulario &lt;label&gt; &lt;input&gt;
+                  &lt;option&gt; etc
+                </td>
+                <td>&lt;legend&gt;Nombre del Grupo&lt;/legend&gt;</td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td>
+                  Para tener valore por defecto en nuestro formulario, lo hacemos mediante el
+                  atributo value. A las etiquetas &lt;input&gt; se pueden establecer esto valores.
+                </td>
+                <td>value="ramon" | value="214,54"</td>
+              </tr>
+            </tbody>
+          </table>
+        </code>
+
+        <br /><br />
+        <form action="/formulario" method="get">
+          <fieldset>
+            <legend>Datos del usuario</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="usernme" id="nombre" placeholder="Indique el nombre" />
+            <label for="apellido">Apellido</label>
+            <input
+              type="text"
+              name="userlastname"
+              id="apellido"
+              placeholder="Indique el apellido"
+            />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Contacto</legend>
+
+            <label for="correo">Correo Electronico</label>
+            <input
+              type="email"
+              name="useremail"
+              id="correo"
+              placeholder="Indique el correo electronico"
+            />
+
+            <label for="telefono">Nro. Teléfonico</label>
+            <input
+              type="tel"
+              name="userphone"
+              id="telefono"
+              placeholder="Indique el teléfono de contacto"
+            />
+          </fieldset>
+          <br />
+          <label for="colorfav">Color Favorito</label>
+          <input type="color" name="colorfavorito" id="colorfav" />
+          <br /><br />
+          <label for="selectipo">Tipo de mensaje</label>
+          <select id="selectipo" name="tipomensaje">
+            <option value="">Indique el tipo de mensaje</option>
+            <option value="consulta">Consulta</option>
+            <option value="precio">Precio de Producto</option>
+            <option value="reclamo">Reclamo de Articulo</option>
+          </select>
+          <br />
+
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="60"
+            rows="4"
+            placeholder="Escribanos el mensaje que desea enviar"
+          ></textarea>
+
+          <hr />
+          <button type="submit">Enviar</button> <button type="reset">Reset</button>
+        </form>
+      </article>
+    </section>
+
+    <section>
+      <h2>Etiquetas adicionales</h2>
+      <article>
+        <header>
+          <h3>&lt;div&gt;</h3>
+        </header>
+        <p>
+          <strong>div de "division" -división.</strong> Sirve para crear secciones o agrupar
+          contenidos.
+        </p>
+        <p>
+          Fue muy usada anteriormente, en la actualidad aún se continua usando, pero ha sido
+          desplazada por las nuevas etiquetas de <em>HTML5</em>, como lo son &lt;section&gt;,
+          &lt;article&gt;, &lt;aside&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;
+        </p>
+        <p>Aún puedes utilizar la etiqueta &lt;div&gt; para un contenedor generico.</p>
+      </article>
+
+      <article>
+        <header>
+          <h3>&lt;secction&gt;</h3>
+        </header>
+        <p>
+          El elemento de HTML section representa una sección genérica de un documento. Sirve para
+          determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como
+          en el índice de contenido de un libro; un tema común y subsecciones relacionadas.
+        </p>
+        <p>
+          Si la intension es agrupar un contenido de varios elementos es recomendable utilizar la
+          etique &lt;article&gt;
+        </p>
+      </article>
+
+      <article>
+        <header>
+          <h3>&lt;article&gt;</h3>
+        </header>
+        <p>
+          Agrupa elementos, que se encuentren anidados o que tengan relacion entre si. <br />
+          Ej. Articulos de un blog o
+        </p>
+        <p>
+          Este guia de html, todos sus elementos que describen las etiquetas están contenidas dentro
+          de etiquetas &lt;article&gt;
+        </p>
+      </article>
+
+      <article>
+        <header>
+          <h3>&lt;aside&gt;</h3>
+        </header>
+        <p>
+          El elemento HTML representa una sección de una página que consiste en contenido que está
+          indirectamente relacionado con el contenido principal del documento. Estas secciones son a
+          menudo representadas como barras laterales o como inserciones y contienen una explicación
+          al margen como una definición de glosario, elementos relacionados indirectamente, como
+          publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o
+          enlaces a blogs relacionados.
+        </p>
+        <p>
+          Es utiliza, para agrupar o dividir la pagina web o aplicación, en partes o secciones
+          laterales, apesar de la &lt;aside&gt; indique a los lados, la pagina web no se divide o
+          segmenta visualmente, solo es posible con css.
+        </p>
+      </article>
+
+      <article>
+        <header>
+          <h3>&lt;nav&gt;</h3>
+        </header>
+        <p>
+          El elemento HTML &lt;nav&gt; representa una sección de una página cuyo propósito es
+          proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros
+          documentos. Ejemplos comunes de secciones de navegación son menús, tablas de contenido e
+          índices.
+        </p>
+        <p>
+          No es necesario que todos los enlaces estén contenidos en un elemento &lt;nav&gt;.
+          &lt;nav&gt; está destinado sólo para el bloque principal de enlaces de navegación; por lo
+          general, el elemento &lt;footer&gt; a menudo tiene una lista de enlaces que no necesitan
+          estar en un elemento &lt;nav&gt;.
+        </p>
+      </article>
+    </section>
+    <hr />
+    <footer>Todos los derechos reservados 2022. - Pedro Obando</footer>
+  </body>
+</html>
