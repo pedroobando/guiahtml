@@ -1,0 +1,51 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+h1 {
+  color: lightsalmon;
+}
+
+h2 {
+  color: slateblue;
+}
+
+p {
+  color: aquamarine;
+}
+
+p span.marknegra {
+  color: black;
+}
+
+#tituloprincipal {
+  color: blue;
+}
+
+.ideaprimaria {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoespecial {
+  color: lime;
+}
+
+section h1,
+section h2 {
+  color: darkmagenta;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section h1 {
+  font-size: 20px;
+}
+
+section h2 {
+  font-size: 16px;
+}
+
+section p {
+  font-size: 16px;
+  color: rgb(238, 140, 12);
+}

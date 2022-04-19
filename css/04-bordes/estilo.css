@@ -1,0 +1,23 @@
+/* como su nombre lo indica elabora un borde al rededor */
+/* estos bordes le podemos asignar color */
+/* estilos, (puntuados, lineas, solidos, formas 3D)
+/* grosor le podemos asignar al borde */
+
+.border_1 {
+  border: #808f00 10px double;
+}
+
+.border_2 {
+  border: #f50 5px dotted;
+}
+
+.border_3 {
+  border: #00f 1px solid;
+}
+
+.border_caja {
+  border-color: #f00;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+}

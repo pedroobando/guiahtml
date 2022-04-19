@@ -1,0 +1,34 @@
+/* existen tres alternativas*/
+/* 1.- usando la convencion RGB */
+/* 2.- usando hexadecimal */
+/* 3.- usando valores hsl */
+
+.color {
+  color: red;
+}
+
+/* inicial siempre con un simbolo # */
+/* contienen tres caracteres */
+/* van desde 0 hasta la f */
+/* siendo 0 la ausencia de color y f la presencia de todos los colores */
+/* la ausencia de todos los colores es negro */
+/* la presencia de todos los colores es el blanco */
+.colorhexadec3 {
+  color: #f00;
+}
+
+/* contienen seis caracteres */
+/* muy parecido a la combinacion de 3 digitos,pero accediendo a mayor variedad de colores */
+/* siendo el 00 la ausencia de color y el ff la presencia de todos los colores */
+/* es como si el primer digito se referiece al entero y el segundo a los decimales */
+.colorhexadec6 {
+  color: #808f00;
+}
+
+/* muy parecida a la hexadecimal la unica diferencia es que los color vienen en numero*/
+/* siendo el 0 la ausencia de color dando un color negro */
+/* y el 255 la presencia de todos los colores, mostrando el color blanco */
+/* tambien podemos hacer todas la convinaciones de los colores.*/
+.colorrgb {
+  color: rgba(0, 0, 255);
+}

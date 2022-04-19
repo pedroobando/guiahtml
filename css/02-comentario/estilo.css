@@ -1,0 +1,20 @@
+/* body {
+  color: blue;
+  font-size: 20px;
+} */
+
+h1 {
+  color: red;
+}
+
+h3 {
+  color: green;
+}
+
+/* Esto es para un mensaje de error*/
+
+/*
+p span.alerta {
+  color: red;
+}
+*/

@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+}
+
+/* como su nombre lo indica elabora un borde al rededor */
+/* estos bordes le podemos asignar color */
+/* estilos, (puntuados, lineas, solidos, formas 3D)
+/* grosor le podemos asignar al borde */
+
+.border_1 {
+  border: #808f00 10px double;
+}
+
+.border_2 {
+  border: #f50 solid;
+  /* la medida rem es relativa a font-size establecido en el elemento html */
+  border-width: 2rem;
+}
+
+.border_3 {
+  border: #00f solid;
+  /* la medida em es relativa al font-size establecido del elemento que lo contenga */
+  border-width: 2em;
+}
+
+/* h1 {
+  font-size: 20px;
+} */
+
+/* medida fijas cm mm in ... existen otras */
+/* todas las medidas fija, van hacer relativas dependiendo del disposito */
+
+/* 1px */
+/* 1cm */
+/* 1mm */
+/* 1in */
+
+.border_caja {
+  border-color: #f00;
+  border-style: solid;
+  border-width: 1in;
+  border-radius: 10px;
+}

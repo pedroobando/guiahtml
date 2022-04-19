@@ -1,0 +1,25 @@
+article {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* indica la trasparencia a todo el elemento*/
+  /* opacity: 0.3; */
+
+  height: 600px;
+  background-image: url('./cafe.jpg');
+
+  background-size: contain;
+  background-size: 300px 300px;
+  background-repeat: repeat-x;
+  background-position: left top;
+
+  /* con una sola linea establecer todas las propiedades */
+  /* background: #f00 url('cafe.jpg') repeat-y top right; */
+}
+
+article .titulo {
+  background-color: chocolate;
+  color: #fff;
+}
+
+article .contenido {
+  background-color: rgba(43, 94, 63, 0.301);
+}
