@@ -1,20 +1,236 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Titulo Pagina</title>
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <h1>Titulo - Principal</h1>
-    <p>parrafo principal</p>
+    <header>
+      <!-- Logotipo -->
+      <!-- Titulo de la pagina - h1 -->
+      <!-- Menu de Navegacion -->
+    </header>
+
+    <!-- Titulos -->
+    <!-- Los titulos son importantes para los motores de busqueda. -->
+    <!-- El h1 es recomendable que este dentro de la etiqueta header, ya que los motores de busque lo indexaran y mostran su titulo en los resultado -->
+    <h1>Titulo principal</h1>
+    <h2>Titulo secundario</h2>
+    <h3>Titulo terciario</h3>
+    <h4>subtitulo 1</h4>
+    <h5>subtitulo 2</h5>
+    <h6>subtitulo 3</h6>
+
+    <!-- Son utilizadas para indicar la zona donde se encuentra el menu de navegacion -->
+    <!-- regularmente incluyen una etiqueta <ul></ul> -->
+    <nav>
+      <ul>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Galeria</li>
+      </ul>
+    </nav>
+
+    <!-- nos ayuda a crear parrafos -->
+    <!-- la etiqueta <span></span>, nos ayuda a separa  fraces o palabra, para cambia el color o estilo -->
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ipsam qui alias quae sit? Ipsum
+      iure, blanditiis praesentium sint exercitationem aliquam dolore sequi explicabo. Modi sint
+      beatae facere repellat molestias.
+    </p>
+    <p>
+      Eligendi <span style="color: blue">Perspiciatis quam exercitationem.</span> itaque corrupti
+      ullam nisi odio nostrum accusantium obcaecati laborum exercitationem. Impedit, facilis ullam.
+      Dolorum, dignissimos reiciendis! Aliquid sed esse quam ipsam!
+    </p>
+
+    <!-- Es una etique para realizar saltos de linea o separaciones de elementos. -->
+    <!-- Yo no la recomiendo, porque esto de mover los espacio o separacion es trabajo de css, ella viene de html 1.1,  -->
+    <!-- Se utiliza regularmente dentro de la etiqueta <p> -->
+    <br />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />Repellendus suscipit, quae cum
+      ipsa ratione alias ut vel quos modi optio necessitatibus enim cumque non quod iste?<br />
+      Ullam recusandae possimus quasi?
+    </p>
+
+    <!-- Etiqueta <stron/> el objetivo es hacer mas fuerte una plabra o frase,  -->
+    <!-- Que tenga mayor relevancia en el SEO como frases destacadas y no de color mas oscuro o negritas -->
+    <!-- Utilizadas para destacas ideas principales que tienen mas importancia que el mismo texto donde se encuentra -->
+    <!-- La etiquete <em></em> es muy parecida a <strong></strong>, pero en menor intensidad -->
+    <p>
+      Lorem ipsum dolor sit amet <strong>Consectetur adipisicing elit</strong>. Debitis harum atque
+      perferendis ex corrupti autem asperiores, <em> totam reprehenderit impedit?</em> Fugit esse
+      eius tempora voluptates quas voluptatum dolor neque, consequatur reprehenderit?
+    </p>
+
+    <!-- Div, fue muy usado anterior mente en versiones antiguas desde html1 has html4,  -->
+    <!-- en la actualidad aun se continua utilizando, solo para agrupar contenido generico -->
+    <!-- nada que haga referencia a areas de la pagina, porque ya existe desde html:5 otras etiquetas para eso  -->
+    <!-- Es una etiquete contenedora de otras etiquetas, img, p, h1, ul ol -->
+    <div>
+      <h2>Titulo 2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <!-- Son etiqutas html que engloban un conjunto de contenido relacionados entre si. -->
+    <!-- puede contener muchos elementos, parrafos, titulos, imagenes, hipervinculos, botones etc. -->
     <section>
       <article>
-        <h2>Titulo Articulo</h2>
-        <p>parrafo del articulo</p>
-        <p>otro parrafo</p>
-        <img src="/imagen/cafe.jpg" />
+        <h2>Titulo 2</h2>
+        <h5>Sub titulo</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo neque facere, cum sapiente
+          soluta totam distinctio quibusdam sit, cupiditate qui ab hic ex nobis amet beatae quis
+          possimus? Ipsa, maxime.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi iste doloribus, possimus
+          quo fugit et cumque perspiciatis reiciendis, optio animi aspernatur commodi quasi tempora!
+          Laboriosam id eum fugiat animi debitis!
+        </p>
       </article>
+    </section>
+
+    <!-- article, son publicaciones que tiene una pagina, es decir post -->
+    <article>
+      <h2>Titulo del article</h2>
+      <img src="" alt="imagen" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In necessitatibus et assumenda
+        soluta perferendis omnis. Earum explicabo cumque ducimus, dolores, libero excepturi
+        temporibus sit dicta est, id velit eaque iste!
+      </p>
+      <button>aceptar</button>
+    </article>
+
+    <!-- aside, son etiquetas que agrupan un tema realacionado con el contenido de una pagina -->
+    <!-- El aside regularmente esta a los lados o de forma vertical, pero tambien puede estar de forma horizontal -->
+    <!-- Ya se ha al principio o final de la region de la pagina -->
+    <!-- Nota: la etiqueta aside, no tiene mucha relevancia con respecto al posicionamiento del SEO, es
+    decir google no la toma mucho en cuenta. -->
+
+    <aside>
+      <article>
+        <img src="./imagen1.png" alt="" />
+        <h5>video 1</h5>
+      </article>
+      <article>
+        <img src="./imagen2.png" alt="" />
+        <h5>video 2</h5>
+      </article>
+      <article>
+        <img src="./imagen1.png" alt="" />
+        <h5>video 3</h5>
+      </article>
+    </aside>
+
+    <!-- Al gual que las demas etiquetas footer a pesar de estar de ultima -->
+    <!-- al igual que header, hay se encontrar informacion relacionado con la direccion, correo, un menu
+    corto, -->
+    <!-- especificamente donde esta ubicada o como contactar a la empresa -->
+    <footer>
+      <ul>
+        <li>email</li>
+        <li>cta instagram</li>
+        <li>cta facebook</li>
+      </ul>
+      <h6>Horario de apertura</h6>
+      <ul>
+        <li>domigo: libre</li>
+        <li>lunes: 8:00 am - 5:00pm</li>
+        <li>martes: 8:00 am - 5:00pm</li>
+        <li>miercoles: 8:00 am - 5:00pm</li>
+        <li>jueves: 8:00 am - 5:00pm</li>
+        <li>viernes: 8:00 am - 5:00pm</li>
+        <li>sabado: 9:00 am - 1:00pm</li>
+      </ul>
+    </footer>
+
+    <section>
+      <h2>Multimedia1</h2>
+      <p>Imagenes, audio y video</p>
+      <img src="./ratatoulle.jpeg" alt="Plato de cocina ratatoulle" />
+      <video src="./y2mate.com - TRAILER RATATOUILLE ESPAÑOL LATINO_360p.mp4" controls="true" />
+      <audio src="./Adda Moreno - Baluartes de mi Tierra.mp3" controls="true" type="audio/mpeg" />
+    </section>
+
+    <section>
+      <h2>Tablas</h2>
+      <table style="border: 1px solid gray">
+        <thead style="background-color: chocolate; color: white">
+          <th>Producto</th>
+          <th>Existencia</th>
+          <th>Precio</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Licuadora</td>
+            <td>3</td>
+            <td>100,02</td>
+          </tr>
+          <tr>
+            <td>Micro Ondas</td>
+            <td>1</td>
+            <td>125.82</td>
+          </tr>
+          <tr>
+            <td>Nevera</td>
+            <td>6</td>
+            <td>892</td>
+          </tr>
+          <tr>
+            <td>Lavadora</td>
+            <td>4</td>
+            <td>420</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table style="border: 1px solid gray">
+        <thead style="background-color: chocolate; color: white">
+          <th></th>
+          <th>Matematica</th>
+          <th>Geografia</th>
+          <th>Historia</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Manuel</td>
+            <td>5</td>
+            <td>7</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Roberto</td>
+            <td>6</td>
+            <td>4</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Alexa</td>
+            <td>9</td>
+            <td>9</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Mariana</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Formularios</h2>
     </section>
   </body>
 </html>
-
-<esto-es-una-etiqueta> Aqui va el contenido de la etiqueta </esto-es-una-etiqueta>
